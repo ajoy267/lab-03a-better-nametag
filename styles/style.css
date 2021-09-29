@@ -46,6 +46,15 @@ main {
     width: 400px;
 }
 
+#the-pronouns {
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+}
+
 footer {
     height: 35px;
     background-color: red;
