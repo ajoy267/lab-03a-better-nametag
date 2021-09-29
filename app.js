@@ -4,7 +4,9 @@ const firstName = document.getElementById('first-name');
 const colorBlue = document.getElementById('blue');
 const colorOrange = document.getElementById('orange');
 const colorYellow = document.getElementById('yellow');
-
+const pronounInput = document.getElementById('pronouns');
+const pronounButton = document.getElementById('what-pronouns');
+const thePronouns = document.getElementById('the-pronouns');
 let backgroundColor = document.getElementById('colors');
 let bottomColor = document.getElementById('color');
 
@@ -27,10 +29,6 @@ colorYellow.addEventListener('click', ()=>{
     backgroundColor.style.background = 'yellow';
     bottomColor.style.background = 'yellow';
 });
-
-const pronounInput = document.getElementById('pronouns');
-const pronounButton = document.getElementById('what-pronouns');
-const thePronouns = document.getElementById('the-pronouns');
 
 pronounButton.addEventListener('click', ()=>{
     let newPronoun = pronounInput.value;
